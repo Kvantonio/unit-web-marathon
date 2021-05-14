@@ -1,0 +1,32 @@
+.box{
+    content: '';
+    position: relative;
+    width:calc(100% - 200px);
+    background-color: rgb(216, 215, 215);
+    margin: 25px;
+    padding: 20px;
+
+}
+
+
+.box:before{
+    content: '';
+    position: absolute;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    top: 0;
+    left: -25px;
+    bottom: 0;
+    right: -25px;
+}
+
+.box:after {
+    content: '';
+    position: absolute;
+    top: -25px;
+    left: 0;
+    bottom: -25px;
+    right: 0;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}

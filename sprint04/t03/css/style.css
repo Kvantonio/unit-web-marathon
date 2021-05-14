@@ -1,0 +1,45 @@
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+body{
+  padding-top: 100px ;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  width: auto;
+  padding: 16px;
+  padding-bottom: 0px;
+  padding: auto;
+  padding-top: 25%;
+  min-height: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom:-20px ;
+  background-color: rgba(131, 131, 131, 0.8);
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(196, 195, 195, 0.8);
+}
+
+

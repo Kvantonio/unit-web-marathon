@@ -1,0 +1,73 @@
+.cards{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 40px;
+}
+
+.card{
+
+    border-radius: 5px;
+    width: 270px;
+    height: 140px;
+    margin: 10px;
+
+    position: relative;
+}
+
+img{
+    height: 182px;
+    left:10px;
+    bottom:42px;
+    position: relative;
+}
+
+.img-spider{
+    height: 182px;
+    bottom:0;
+    left:10px;
+    position: relative;
+    
+}
+
+p{
+    margin: 0;
+}
+
+.alias{
+    position: relative;
+    font-size: 12px;
+    text-align: right;
+    font-family: Verdana;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    bottom: 187px;
+}
+
+.name{
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    font-size: 9px;
+    text-align: right;
+    font-family: Verdana;
+    padding: 10px;
+    font-weight: bold;
+    bottom: 205px;
+}
+
+
+
+.capitan{
+    background: linear-gradient(#4568DC, #B06AB3);
+}
+
+.iron{
+    background: linear-gradient(#e52d27, #b31217);
+}
+
+.black{
+    background: linear-gradient(#000, #61045F);
+}
+.spider{
+    background: linear-gradient(#e52d27, #000);
+}

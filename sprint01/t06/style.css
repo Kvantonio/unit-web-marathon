@@ -1,0 +1,159 @@
+h1 {
+  color: hotpink;
+  font-family: sans-serif ;
+  margin-left: 40px;
+  font-size: 40px;
+    
+}
+h2 {
+  color: lightslategrey;
+  font-family: sans-serif ;
+  text-align: center;
+  font-size: 40px;
+}
+
+
+.container {
+  font-family: sans-serif ;
+  font-size: 13px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+ul.ks-cboxtags {
+  list-style: none;
+  padding: 20px;
+  
+}
+
+ul.ks-cboxtags li{
+  display: inline-block;
+}
+ul.ks-cboxtags li label{
+  display: inline-block;
+
+  width: 200px;
+  font-size: 15px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .9);
+  border: 1px solid rgba(124, 124, 124, 0.3);
+  color: lightslategrey;
+  border-radius: 25px;
+  white-space: nowrap;
+  margin: 10px 10px;
+
+
+}
+
+ul.ks-cboxtags li label {
+  padding: 15px 20px 15px 20px;
+  cursor: pointer;
+}
+
+ul.ks-cboxtags li label::after {
+  display: inline-block;
+  font-variant: normal;
+  text-rendering: auto;
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 12px;
+  padding: 2px 6px 2px 2px;
+
+}
+
+ul.ks-cboxtags li input[type="checkbox"]:checked + label::after {
+  content: " \2713";
+  font-size: 15px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+
+}
+
+ul.ks-cboxtags li input[type="checkbox"]:checked + label {
+  
+  border: 1px solid lightslategray;
+  background-color: midnightblue;
+  color: #fff;
+
+
+}
+
+ul.ks-cboxtags li input[type="checkbox"] {
+  display: absolute;
+}
+ul.ks-cboxtags li input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+}
+
+
+.job{
+  display:block;
+  height:50px;
+  width:90%;
+  margin:0 auto;
+  border:none;
+  position:relative;
+  border-bottom:1px solid rgba(0,0,0,.1);
+  padding-left:20px;
+  font-family: sans-serif;
+  color:lightslategrey;
+
+}
+
+.Name, .email {
+  font-family: sans-serif;
+  padding-left:20px;
+  width: 42.5%;
+  position:relative;
+  border:none;
+
+  border-bottom:1px solid rgba(0,0,0,.1);
+  height:50px;
+  
+
+  font-family: sans-serif;
+  color:lightslategrey;
+
+}
+
+
+.email{
+
+  margin-left:3% ;
+}
+
+button{
+  display:block;
+  margin:0 auto;
+
+  width:92%;
+  height:60px;
+  margin-top:-10px;
+  border:none;
+  font-family: sans-serif;
+  text-transform:uppercase;
+  color:#fff;
+
+  background:hotpink;
+}
+
+button:hover {
+  visibility:visible; 
+  background-color: brown;
+  transition: background-color 1s;
+  transition-delay: 1s; /* delays for 1 second */
+
+}
+
+.ne{
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin: 0px auto;
+  margin-left: 4%;
+}
+

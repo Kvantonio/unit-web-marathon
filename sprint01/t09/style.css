@@ -1,0 +1,110 @@
+
+
+h1{
+    text-align: center;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 640px) {
+   .grid-container {
+
+    border: 1px solid black;
+    border-radius: 10px;
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  gap: 3px 3px;
+  grid-template-areas:
+    "one one one one one one one one . ."
+    "one one one one one one one one . ."
+    "two two two two two two two two two ."
+    "two two two two two two two two two ."
+    "three three three three three three three three . ."
+    "three three three three three three three three . ."
+    "four four four four four four four six six six"
+    "four four four four four four four six six six"
+    "five five five five five five . six six six"
+    "five five five five five five . six six six"
+    "seven seven seven seven seven seven eight eight . ."
+    "seven seven seven seven seven seven eight eight . ."
+    "seven seven seven seven seven seven eight eight . ."
+    "nine nine nine nine nine nine nine . . ."
+    "nine nine nine nine nine nine nine . . .";
+    }
+    .one { grid-area: one; }
+    .two { grid-area: two; }
+    .three { grid-area: three; }
+    .four { grid-area: four; }
+    .five { grid-area: five; }
+    .six { grid-area: six; }
+    .seven { grid-area: seven; }
+    .eight { grid-area: eight; }
+    .nine { grid-area: nine; }
+}
+
+@media only screen and (min-width: 640px) {
+    .grid-container {
+        border: 1px solid black;
+    border-radius: 10px;
+        display: grid;
+        grid-template-columns: 24.3% 15.1% 23.3% 25% 6.2%;
+        grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 5% 7.5%;
+        gap: 4px 4px;
+        grid-template-areas:
+          "one one one . ."
+          "two two two two ."
+          "three three three . ."
+          "four four four five five"
+          "six six seven seven ."
+          "six six seven seven ."
+          "six six seven seven ."
+          "eight nine nine nine ."
+          "eight nine nine nine ."
+          "eight nine nine nine .";
+      }
+      .one { grid-area: one; }
+      .two { grid-area: two; }
+      .three { grid-area: three; }
+      .four { grid-area: four; }
+      .five { grid-area: five; }
+      .six { grid-area: six; }
+      .eight { grid-area: eight; }
+      .seven { grid-area: seven; }
+      .nine { grid-area: nine; }
+}
+
+@media only screen and (min-width: 1366px) {
+    .grid-container {
+        border: 1px solid black;
+    border-radius: 10px;
+        display: grid;
+        grid-template-columns: 5% 5% 5% 5% 5% 5% 0.6% 7.9% 6.5% 2.5% 2% 14% 2.4% 4.1% 5% 5% 5% 5%;
+        grid-template-rows: 11.7% 9.7% 10% 9.6% 11.2% 8.8% 10% 10%;
+        gap: 10px 10px;
+        grid-template-areas:
+          "one one one one one one one one one two two two two two two two two two"
+          "one one one one one one one one one two two two two two two two two two"
+          "three three three three three three . four four four four four four five five five five five"
+          "three three three three three three . four four four four four four five five five five five"
+          "six six six six seven seven seven seven seven seven . eight nine nine nine nine nine nine"
+          "six six six six seven seven seven seven seven seven . eight nine nine nine nine nine nine"
+          "six six six six seven seven seven seven seven seven . eight nine nine nine nine nine nine"
+          "six six six six seven seven seven seven seven seven . eight nine nine nine nine nine nine";
+      }
+      .one { grid-area: one; }
+      .six { grid-area: six; }
+      .seven { grid-area: seven; }
+      .two { grid-area: two; }
+      .four { grid-area: four; }
+      .five { grid-area: five; }
+      .three { grid-area: three; }
+      .eight { grid-area: eight; }
+      .nine { grid-area: nine; }
+
+}
+

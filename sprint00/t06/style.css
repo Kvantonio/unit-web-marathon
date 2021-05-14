@@ -1,0 +1,17 @@
+#rainbow-block{
+    height: 100px;
+
+    background: linear-gradient(to right,red , orange , yellow, green, blue, purple);
+}
+
+#horn-block{
+    height: 100px;
+    width: 100px;
+    background: repeating-linear-gradient(0,#c72d2d,#ffffff 0.5rem,#4e9eaf 1rem);
+    bottom: 40px;
+    left: 100px;
+    position: relative;
+
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+
+}

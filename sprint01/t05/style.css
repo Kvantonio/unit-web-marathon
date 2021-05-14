@@ -1,0 +1,40 @@
+input{
+    color: red;
+    border-color: blue;
+    border-radius: 3px;
+    
+    width: 100%;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input:focus{
+    color: green;
+}
+
+input:hover{
+    color: red;
+}
+
+div{
+    display: flex;
+    flex-flow: row;
+    height: 2em;
+    width: calc(100% - 5px);
+}
+
+button{
+    color: green;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+
+
+}
+
+button:hover{
+    color: red;
+
+}

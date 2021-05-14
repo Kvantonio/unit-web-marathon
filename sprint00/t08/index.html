@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Superhero Form</h1>
+    <form>
+        <fieldset>
+            <legend>About the Superhero</legend>
+            <label for="fname" >Real Name</label>
+            <input type="text" id="fname" name="fname" placeholder="real name" autofocus>
+
+            <label for="yname">Superhero name</label>
+            <input type="text" id="yname" name="yname" placeholder="Superhero alias">
+
+            <label for="tname">Age</label>
+            <input type="number" id="tname" name="tname" min="1" max="999"><br>
+
+            <div class ="about">
+            <label  for="msg">About</label>
+            <textarea id="msg" name="jname" cols="70" rows="5" maxlength="500" placeholder="Information about the superhero, 500 symbols"></textarea>
+            </div>
+        <br>
+            <label for="pname">Photo</label>
+            <input type="file" id="pname" name="pname">
+        </fieldset>
+        <fieldset>
+            <legend>Powers</legend>
+            <input type="checkbox" id="fname" name="kname">
+            <label for="kname">Telekinesis</label>
+            <input type="checkbox" id="fname" name="kname">
+            <label for="kname">Super strength or speed</label>
+            <input type="checkbox" id="fname" name="kname">
+            <label for="kname">Shapeshifting</label>
+            <input type="checkbox" id="fname" name="kname">
+            <label for="kname">Fight</label>
+            <input type="checkbox" id="fname" name="kname">
+            <label for="kname">Elemental control</label>
+            <input type="checkbox" id="fname" name="kname">
+            <label for="kname">Other</label>
+            
+            <br>
+            <br>    
+            
+            <label for="oname">Level of control</label>
+            <input type="range" name="oname" id="oname" min="0" max="10" step="1" value="1">
+            
+            </fieldset>
+            <fieldset>
+                <legend>Powers</legend>
+                <input type="radio" id="fname" name="bname">
+                <label for="bname">Unknown</label>
+                <input type="radio" id="fname" name="bname">
+                <label for="bname">Freak lab accident</label>
+                <input type="radio" id="fname" name="bname">
+                <label for="bname">Chosen by an ancient wise being</label>
+                <input type="radio" id="fname" name="bname">
+                <label for="bname">The superhero is not human</label>
+                <input type="radio" id="fname" name="bname">
+                <label for="bname">Other</label>
+            </fieldset>
+            <input type="reset" value="Clear">
+            <input type="submit" value="Send">
+    </form>
+</body>
+</html>

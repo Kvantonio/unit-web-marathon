@@ -1,0 +1,11 @@
+img{
+    float: left;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+@media print {
+    img {float: none;}
+}
